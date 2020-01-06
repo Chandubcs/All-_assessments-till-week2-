@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <title>This textbox onchange prgm</title>
+<head>
+    <script type="text/javascript">
+    function greet(nameId,displayId)
+    {
+        var inputElement=document.getElementById(nameId);
+        var greetElement=document.getElementById(displayId);
+        var inputvalue=inputElement.value;
+
+        console.log("input id:"+inputElement.id);
+        greetElement.innerHTML="hello ra "+inputvalue;
+    }
+    
+    
+    </script>
+</head>
+<body>
+    <h1>javscript responding to html inputs</h1>
+    <form id="form1">
+        <input id="name1" type="text" onchange="greet('name1','greetcomponent')">
+    </form>
+    <div id="greetcomponent" style="margin:50px">
+    </div>
+</body>
+</html>

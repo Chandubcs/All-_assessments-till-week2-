@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript">
+
+ function displayMessage()
+ {
+     var desiredInner;
+     var user1={id:1,name:"rajini",age:87,
+     userdetails:function(){
+         var details1=user1.id+" ,"+user1.name+" ,"+user1.age+" ";
+         return details1;
+     }
+     };
+     var user2={id:2,name:"Superstar",age:45,
+     userdetails:function(){
+         var details2=user2.id+" ,"+user2.name+" ,"+user2.age;
+         return details2;  }
+         };
+var element=document.getElementById("t1");
+var details1=user1.userdetails();
+var details2=user2.userdetails();
+var desiredInner=details1+"<br>"+details2;
+element.innerHTML=desiredInner;
+
+
+   
+     console.log(" HEY ,IT REALLY GOT CHANGED THIS TIME,GOOD.VERY GOOD.VERY VERY GOOD");
+
+ }
+</script>
+</head>
+<body>
+    <h1> DISPLAY message</h1>
+    <a href="#" onclick=displayMessage()>this is displayed</a>\
+    <div id="t1" style="margin:50px"></div>
+</body>
+</html>
