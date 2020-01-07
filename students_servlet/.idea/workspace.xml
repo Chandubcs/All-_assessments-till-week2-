@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="524769cb-d57b-4fac-bcf4-6655c0507190" name="Default Changelist" comment="" />
+    <list default="true" id="524769cb-d57b-4fac-bcf4-6655c0507190" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Ewallet/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../deloittemvcdemo_sent/src/main/java/org/cap/dao/IUserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../deloittemvcdemo_sent/src/main/java/org/cap/dao/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../deloittemvcdemo_sent/src/main/java/org/cap/service/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../deloittemvcdemo_sent/src/main/java/org/cap/service/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../deloittemvcdemo_sent/src/main/webapp/WEB-INF/pages/userdetails.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../deloittemvcdemo_sent/src/main/webapp/WEB-INF/pages/userinput.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ewallet/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Ewallet/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EwalletPhase2" beforeDir="false" afterPath="$PROJECT_DIR$/../EwalletPhase2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EwalletProject" beforeDir="false" afterPath="$PROJECT_DIR$/../EwalletProject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MobileServiceProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MobileServiceProject/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,7 +48,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/app/Util.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
@@ -45,7 +57,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/app/SecondServlet.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
@@ -85,6 +97,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -104,12 +119,12 @@
     <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -170,10 +185,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -204,7 +221,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2579425" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26172465" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -256,13 +273,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/app/Util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/javascript/first.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -284,6 +294,13 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mycompany/app/Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
         </state>
       </provider>
     </entry>
