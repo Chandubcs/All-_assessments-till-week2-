@@ -44,4 +44,5 @@ public class UserDaoImpl implements IUserDao {
         user = getEntityManager().merge(user);
         return user;
     }
+
 }

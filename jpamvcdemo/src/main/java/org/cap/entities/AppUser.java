@@ -30,6 +30,16 @@ public class AppUser {
 
     private String password;
 
+    public String getMobileNo() {
+        return mobileNo;
+    }
+
+    public void setMobileNo(String mobileNo) {
+        this.mobileNo = mobileNo;
+    }
+
+    public String mobileNo;
+
     public String getPassword(){
         return password;
     }
